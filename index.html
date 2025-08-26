@@ -88,6 +88,36 @@
     }
     @keyframes fadeIn{0%{opacity:0}100%{opacity:1}}
     @keyframes zoomIn{from{transform:scale(0.7);opacity:0}to{transform:scale(1);opacity:1}}
+      .venue-link {
+      display: inline-block;
+      padding: 10px 20px;
+      color: #fff;
+      background: linear-gradient(45deg, #ff416c, #ff4b2b);
+      border-radius: 10px;
+      font-weight: bold;
+      text-decoration: none;
+      box-shadow: 0 0 10px rgba(255, 64, 129, 0.7);
+      animation: pulse 1.5s infinite;
+      transition: transform 0.3s ease;
+    }
+
+    .venue-link:hover {
+      transform: scale(1.1);
+    }
+
+    @keyframes pulse {
+      0% {
+        box-shadow: 0 0 10px rgba(255, 64, 129, 0.7);
+      }
+
+      50% {
+        box-shadow: 0 0 20px rgba(255, 64, 129, 1);
+      }
+
+      100% {
+        box-shadow: 0 0 10px rgba(255, 64, 129, 0.7);
+      }
+    }
   </style>
 </head>
 <body>
@@ -177,6 +207,7 @@
   </script>
 </body>
 </html>
+
 
 
 
