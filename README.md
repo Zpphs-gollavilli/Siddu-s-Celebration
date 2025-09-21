@@ -32,7 +32,7 @@ Click the animated venue button to view the location:
 ![Preview Screenshot](./screenshot.png)
 
 ---
-📦 Assets
+## 📦 Assets
 👉 Create your own 3D characters at peeps.ui8.net
 
 ---
