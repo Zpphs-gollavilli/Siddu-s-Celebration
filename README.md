@@ -32,6 +32,10 @@ Click the animated venue button to view the location:
 ![Preview Screenshot](./screenshot.png)
 
 ---
+📦 Assets
+👉 Create your own 3D characters at peeps.ui8.net
+
+---
 
 ## ⚡ How to Run
 1. Clone the repo  
